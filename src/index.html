@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="value">
+      <div class="length">
+        <p>
+          Length of the rectangle
+          <input id="l" type="text" placeholder="Lenght here" />mtr
+        </p>
+      </div>
+      <div class="breadth">
+        <p>
+          Width of rectangle
+          <input id="b" type="text" placeholder="Width here" />mtr
+        </p>
+      </div>
+    </div>
+    <div id="cal">
+      <button id="btn" type="button" onclick="arandper()">
+        Calculate area and perimeter
+      </button>
+    </div>
+    <div class="result">
+      <p id="area"></p>
+      <p id="perimeter"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
